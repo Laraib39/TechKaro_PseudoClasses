@@ -1,0 +1,40 @@
+#type1{
+    display: inline-block;
+}
+#type2{
+    display: inline-block;
+}
+/* SOME PSEUDO CLASSES */
+/* nth-last-of-type */
+p:nth-last-of-type(odd){
+    background-color: rgb(227, 243, 170);
+}
+p:nth-last-of-type(even){
+    background-color: rgb(113, 204, 204);
+} 
+p{
+    color: rgb(70, 63, 63);
+}
+/* not() */
+:not(p){
+    color: rgb(170, 38, 38);
+}
+/* nth-of-type */
+div:nth-of-type(3){
+    color: blueviolet;
+    font-weight: bold;
+}
+/* empty */
+div:empty{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(153, 137, 168);
+}
+/* lang */
+h3:lang(ch){
+    background-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+    font-size: xx-large;
+}
